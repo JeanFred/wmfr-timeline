@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    width="35000"
+    height="12000"
+    id="svg2"
+    version="1.1">
+<!--
+1 year = 3600
+1 month = 300
+
+AGfinavril = +1100
+AGmimars = +750
+
+AG2004 = 0
+-->
+  <defs id="defs">
+    <rect id="2004-2005"
+       width="1700"
+       height="150"
+       x='0'
+       />
+    <rect id="2005-2006"
+       width="3600"
+       height="150"
+       x='1700'
+       />
+    <rect id="2006-2007"
+       width="2700"
+       height="150"
+       x='5300'
+       />
+    <rect id="2007-2008"
+       width="3850"
+       height="150"
+       x='8000'
+       />
+    <rect id="2008-2009"
+       width="3900"
+       height="150"
+       x='11850'
+       />
+    <rect id="2009-2010"
+       width="3600"
+       height="150"
+       x='15750'
+       />
+    <rect id="2010-2011"
+       width="3600"
+       height="150"
+       x='19350'
+       />
+    <rect id="2011-2012"
+       width="4050"
+       height="150"
+       x='22950'
+       />
+    <rect id="2012-2013"
+       width="3600"
+       height="150"
+       x='27000'
+       />
+    <rect id='2014y'
+       width="2000"
+       height="150"
+       x='33000'
+       /><!-- Width to go until end of drawing-->
+
+    <!-- Solarized colors -->
+    <linearGradient id="base03">    <stop stop-color="#002b36"/>    </linearGradient>
+    <linearGradient id="base02">    <stop stop-color="#073642"/>    </linearGradient>
+    <linearGradient id="base01">    <stop stop-color="#586e75"/>    </linearGradient>
+    <linearGradient id="base00">    <stop stop-color="#657b83"/>    </linearGradient>
+    <linearGradient id="base0">     <stop stop-color="#839496"/>    </linearGradient>
+    <linearGradient id="base1">     <stop stop-color="#93a1a1"/>    </linearGradient>
+    <linearGradient id="base2">     <stop stop-color="#eee8d5"/>    </linearGradient>
+    <linearGradient id="base3">     <stop stop-color="#fdf6e3"/>    </linearGradient>
+    <linearGradient id="yellow">    <stop stop-color="#b58900"/>    </linearGradient>
+    <linearGradient id="orange">    <stop stop-color="#cb4b16"/>    </linearGradient>
+    <linearGradient id="red">       <stop stop-color="#dc322f"/>    </linearGradient>
+    <linearGradient id="magenta">   <stop stop-color="#d33682"/>    </linearGradient>
+    <linearGradient id="violet">    <stop stop-color="#6c71c4"/>    </linearGradient>
+    <linearGradient id="blue">      <stop stop-color="#268bd2"/>    </linearGradient>
+    <linearGradient id="cyan">      <stop stop-color="#2aa198"/>    </linearGradient>
+    <linearGradient id="green">     <stop stop-color="#859900"/>    </linearGradient>
+
+    <!-- CSS style -->
+    <style id="Style" type="text/css">
+        .board { fill:#999999 }
+        .president { fill:url(#red) }
+        .vicepresident { fill:url(#magenta) }
+        .treasurer { fill:url(#blue) }
+        .vicetreasurer { fill:url(#violet) }
+        .secretary{ fill:url(#orange) }
+        .vicesecretary { fill:url(#yellow) }
+
+        .staff { fill:url(#cyan) }
+        .partstaff { fill:url(#blue) }
+        .intern { fill:url(#violet) }
+
+        text.name { font-size:120px; fill:black; font-family:Linux Libertine}
+        text.label { font-size:200px; fill:black; font-family:Linux Libertine}
+
+        .background { fill:url(#base3) }
+    </style>
+</defs>
+
+<!-- Background color -->
+<rect width="35000" height="12000" class="background"/>
+
+<!-- Labels -->
+
+<g id="Labels" transform="translate(0,150)">
+    <text x='600'   class='label'>2005</text> 
+    <text x='4200'  class='label'>2006</text> 
+    <text x='7800'  class='label'>2007</text> 
+    <text x='11400' class='label'>2008</text> 
+    <text x='15000' class='label'>2009</text> 
+    <text x='18600' class='label'>2010</text> 
+    <text x='22200' class='label'>2011</text> 
+    <text x='25800' class='label'>2012</text> 
+    <text x='29400' class='label'>2013</text> 
+    <text x='33000' class='label'>2014</text> 
+</g>
+
+<g id="Board" transform="translate(0,200)">
+    <g id="MasDaude" transform="translate(0,0) ">
+        <use class='board' xlink:href="#2004-2005"/>
+        <text dx='10' dy="110" class="name">Jean-Michel Mas-Daudé</text>
+    </g>
+    <g id="Board.Elie" transform="translate(0,200) ">
+        <use class='board' xlink:href="#2004-2005"/>
+        <text dx='10' dy="110" class="name">Philippe Elie</text>
+    </g>
+ 
+    <g id="Board.Hocevar" transform="translate(0,400) ">
+        <use class='board' xlink:href="#2004-2005"/>
+        <text dx='10' dy="110" class="name">Samuel Hocevar</text>
+    </g>
+ 
+   <g id="Board.Constans" transform="translate(0,600) ">
+        <use class="treasurer" xlink:href="#2004-2005"/>
+        <use class="treasurer" xlink:href="#2005-2006"/>
+        <text dx='10' dy="110" class="name">Camille Constans</text>
+    </g>
+ 
+    <g id="Board.Forget" transform="translate(0,800) ">
+        <use class='secretary' xlink:href="#2004-2005"/>
+        <text dx='10' dy="110" class="name">Yann Forget</text>
+    </g>
+    
+    <g id="Board.Weeger" transform="translate(0,1000) ">
+        <use class='president' xlink:href="#2004-2005"/>
+        <use class='president' xlink:href="#2005-2006"/>
+        <use class='board' xlink:href="#2006-2007"/>
+        <text dx='10' dy="110" class="name">Nicolas Weeger</text>
+     </g>
+ 
+    <g id="Board.Soufron" transform="translate(0,1200) ">
+        <use class='board' xlink:href="#2004-2005"/>
+        <use class='board' xlink:href="#2005-2006"/>
+        <use class='board' xlink:href="#2006-2007"/>
+        <text dx='10' dy="110" class="name">Jean-Baptiste Soufron</text>
+     </g>
+     
+    <g id="Board.Nguyen" transform="translate(0,1400) ">
+        <use class='secretary' xlink:href="#2005-2006"/>
+        <use class='secretary' xlink:href="#2006-2007"/>
+        <text x='1700' dx='10' dy="110" class="name">Marie-Lan Nguyen</text>
+     </g>
+     
+    <g id="Board.Menard" transform="translate(0,1600) ">
+        <use class='board' xlink:href="#2005-2006"/>
+        <use class='treasurer' xlink:href="#2006-2007"/>
+        <use class='treasurer' xlink:href="#2009-2010"/>
+        <text x='1700' dx='10' dy="110" class="name">Delphine Ménard</text>
+    </g>
+    
+    <g id="Board.Thuillier" transform="translate(0,1800) ">
+        <use class='president' xlink:href="#2006-2007"/>
+        <text x='5300' dx='10' dy="110" class="name">Frédéric Thuillier</text>
+    </g>
+
+    <g id="Board.Amo" transform="translate(0,2000) ">
+        <use class='board' xlink:href="#2006-2007"/>
+        <text x='5300' dx='10' dy="110" class="name">Mathieu Amo</text>
+    </g>
+    
+    <g id="Board.Engelhart" transform="translate(0,2200) ">
+        <use class='board' xlink:href="#2005-2006"/>
+        <use class='board' xlink:href="#2007-2008"/>
+        <text x='1700' dx='10' dy="110" class="name">Emmanuel Engelhart</text>
+    </g>
+ 
+    <g id="Board.Monniaux" transform="translate(0,2400) ">
+        <use class='board' xlink:href="#2005-2006"/>
+        <use class='board' xlink:href="#2006-2007"/>
+        <use class='board' xlink:href="#2007-2008"/>
+        <use class='secretary' xlink:href="#2009-2010"/>
+        <text x='1700' dx='10' dy="110" class="name">David Monniaux</text>
+    </g>
+    
+    <g id="Board.Gaffard" transform="translate(0,2600) ">
+        <use class='board' xlink:href="#2004-2005"/>
+        <use class='treasurer' xlink:href="#2007-2008"/>
+        <use class='treasurer' xlink:href="#2008-2009"/>
+        <text dx='10' dy="110" class="name">Jean-François Gaffard</text>
+    </g>
+    
+    <g id="Board.Devouard" transform="translate(0,2800) ">
+        <use class='board' xlink:href="#2004-2005"/>
+        <use class='board' xlink:href="#2005-2006"/>
+        <use class='board' xlink:href="#2006-2007"/>
+        <use class='board' xlink:href="#2008-2009"/>
+        <use class='board' xlink:href="#2009-2010"/>
+        <use class='board' xlink:href="#2010-2011"/>
+        <use class='vicepresident' xlink:href="#2011-2012"/>
+        <use class='vicepresident' xlink:href="#2012-2013"/>
+        <text dx='10' dy="110" class="name">Florence Devouard</text>
+    </g>
+    
+    <g id="Board.Chansigaud" transform="translate(0,3000) ">
+        <use class='board' xlink:href="#2007-2008"/>
+        <text x='8000' dx='10' dy="110" class="name">Valérie Chansigaud</text>
+    </g>
+    
+    <g id="Board.Dreo" transform="translate(0,3200) ">
+        <use class='board' xlink:href="#2007-2008"/>
+        <text x='8000' dx='10' dy="110" class="name">Johann Dréo</text>
+    </g>
+    
+    <g id="Board.Paumier" transform="translate(0,3400) ">
+        <use class='secretary' xlink:href="#2007-2008"/>
+        <use class='board' xlink:href="#2008-2009"/>
+        <text x='8000' dx='10' dy="110" class="name">Guillaume Paumier</text>
+    </g>
+
+    <g id="Board.Beaudouin" transform="translate(0,3600) ">
+        <use class='president' xlink:href="#2007-2008"/>
+        <use class='president' xlink:href="#2008-2009"/>
+        <use class='treasurer' xlink:href="#2010-2011"/>
+        <text x='8000' dx='10' dy="110" class="name">Pierre Beaudouin</text>
+    </g>
+    
+    <g id="Board.Henner" transform="translate(0,3800) ">
+        <use class='board' xlink:href="#2007-2008"/>
+        <use class='board' xlink:href="#2008-2009"/>
+        <use class='board' xlink:href="#2009-2010"/>
+        <use class='board' xlink:href="#2010-2011"/>
+        <use class='board' xlink:href="#2011-2012"/>
+	<use class='board' xlink:href="#2012-2013"/>
+        <text x='8000' dx='10' dy="110" class="name">Christophe Henner</text>
+    </g>
+    
+    <g id="Board.Moatti" transform="translate(0,4000) ">
+        <use class='board' xlink:href="#2008-2009"/>
+        <use class='board' xlink:href="#2009-2010"/>
+        <text x='11850' dx='10' dy="110" class="name">Alexandre Moatti</text>
+    </g>
+    
+    <g id="Board.Fayolle" transform="translate(0,4200) ">
+        <use class='secretary' xlink:href="#2008-2009"/>
+        <use class='vicepresident' xlink:href="#2009-2010"/>
+        <use class='vicepresident' xlink:href="#2010-2011"/>
+        <text x='11850' dx='10' dy="110" class="name">Julien Fayolle</text>
+    </g>
+    
+    <g id="Board.Drechler" transform="translate(0,4400) ">
+        <use class='board' xlink:href="#2008-2009"/>
+        <text x='11850' dx='10' dy="110" class="name">Michèle Drechler</text>
+    </g>
+    
+    <g id="Board.Oudet" transform="translate(0,4600) ">
+        <use class='board' xlink:href="#2008-2009"/>
+        <text x='11850' dx='10' dy="110" class="name">Bruno Oudet</text>
+    </g>
+    
+    <g id="Board.Alix" transform="translate(0,4800) ">
+        <use class='president' xlink:href="#2009-2010"/>
+        <use class='president' xlink:href="#2010-2011"/>
+        <use class='president' xlink:href="#2011-2012"/>
+        <text x='15750' dx='10' dy="110" class="name">Adrienne Alix</text>
+    </g>
+    
+    <g id="Board.Bachelet" transform="translate(0,5000) ">
+        <use class='board' xlink:href="#2009-2010"/>
+        <use class='board' xlink:href="#2010-2011"/>
+        <use class='board' xlink:href="#2011-2012"/>
+        <text x='15750' dx='10' dy="110" class="name">Rémi Bachelet</text>
+    </g>
+    
+    <g id="Board.Mathis" transform="translate(0,5200) ">
+        <use class='vicetreasurer' xlink:href="#2009-2010"/>
+        <use class='board' xlink:href="#2010-2011"/>
+        <use class='president' xlink:href="#2011-2012"/>
+	<use class='president' xlink:href="#2012-2013"/>
+        <text x='15750' dx='10' dy="110" class="name">Rémi Mathis</text>
+    </g>
+    
+    <g id="Board.Coudray" transform="translate(0,5400) ">
+        <use class='vicetreasurer' xlink:href="#2010-2011"/>
+        <!-- <use class='treasurer' xlink:href="#2011-2012"/> -->
+        <rect   x="22950"
+            class="treasurer"
+            width="3800"
+            height="150"
+        />
+        <text x='19350' dx='10' dy="110" class="name">Thierry Coudray</text>
+    </g>
+    
+    <g id="Board.Vigneron" transform="translate(0,5600) ">
+        <use class='secretary' xlink:href="#2010-2011"/>
+        <text x='19350' dx='10' dy="110" class="name">Nicolas Vigneron</text>
+    </g>
+    
+    <g id="Board.Beyou" transform="translate(0,5800) ">
+        <use class='vicetreasurer' xlink:href="#2011-2012"/>
+        <text x='22950' dx='10' dy="110" class="name">Sébastien Beyou</text>
+        <rect   x="26750"
+            class="treasurer"
+            width="250"
+            height="150"
+        />
+    </g>
+    
+    <g id="Board.Robert" transform="translate(0,6000) ">
+        <use class='secretary' xlink:href="#2011-2012"/>
+        <use class='secretary' xlink:href="#2012-2013"/>
+        <text x='22950' dx='10' dy="110" class="name">Willie Robert</text>
+    </g>
+    
+    <g id="Board.Mevel" transform="translate(0,6200) ">
+        <use class='board' xlink:href="#2011-2012"/>
+        <use class='board' xlink:href="#2012-2013"/>
+        <text x='22950' dx='10' dy="110" class="name">Pierre-Yves Mevel</text>
+    </g>
+
+    <g id="Board.Becker" transform="translate(0,6400) ">
+        <use class='board' xlink:href="#2012-2013"/>
+        <text x='27000' dx='10' dy="110" class="name">Caroline Becker</text>
+    </g>
+
+    <g id="Board.Berthelot" transform="translate(0,6600) ">
+        <use class='board' xlink:href="#2012-2013"/>
+        <text x='27000' dx='10' dy="110" class="name">Jean-Frédéric Berthelot</text>
+    </g>
+
+    <g id="Board.Goursat" transform="translate(0,6800) ">
+        <use class='treasurer' xlink:href="#2012-2013"/>
+        <text x='27000' dx='10' dy="110" class="name">Guillaume Goursat</text>
+    </g>
+
+    <g id="Board.Smith" transform="translate(0,7000)">
+        <use class='vicetreasurer' xlink:href="#2012-2013"/>
+        <text x='27000' dx='10' dy="110" class="name">Benjamin Smith</text>
+    </g>
+</g>
+<!-- </CA> -->
+
+<g id="Staff" transform="translate(0,8000)">
+    <g id="Staff.Coye" transform="translate(0,0)">
+        <g transform="translate(16800,0) "><!-- TO CHECK -->
+            <rect id="Staff.Coye.Period"
+                class="partstaff"
+                width="18000"
+                height="150"
+            />
+            <text id="Staff.Coye.Text" dx='10' dy="110" class="name">Elisabeth Coye</text>
+        </g>
+        <use class='background' xlink:href="#2014y"/>
+    </g>
+
+    <g id="Staff.Guerry" transform="translate(0,400) ">
+        <g transform="translate(19100,0) ">
+            <rect id="Staff.Guerry.Period"
+                class="staff"
+                width="3900"
+                height="150"
+            />
+            <text id="Staff.Guerry.Text" dx='10' dy="110" class="name">Bastien Guerry</text>
+        </g>
+    </g>
+
+    <g id="Staff.OHare" transform="translate(0,600) ">
+        <g transform="translate(23850,0) ">
+            <rect id="Staff.OHare.Period"
+                class="staff"
+                width="10000"
+                height="150"
+            />
+            <text id="Staff.OHare.Text" dx='10' dy="110" class="name">Carol Ann O’Hare</text>
+        </g>
+        <use class='background' xlink:href="#2014y"/>
+    </g>
+
+    <g id="Staff.Alix" transform="translate(0,800) ">
+        <g transform="translate(24000,0) ">
+            <rect id="Staff.Alix.Period"
+                class="staff"
+                width="10000"
+                height="150"
+            />
+            <text id="Staff.Alix.Text" dx='10' dy="110" class="name">Adrienne Alix</text>
+        </g>
+        <use class='background' xlink:href="#2014y"/>    
+    </g>
+
+    <g id="Staff.Boissel" transform="translate(0,1000) ">
+        <g transform="translate(24450,0) ">
+            <rect id="Staff.Boissel.Period"
+                class="staff"
+                width="10000"
+                height="150"
+            />
+            <text id="Staff.Boissel.Text" dx='10' dy="110" class="name">Sylvain Boissel</text>
+        </g>
+        <use class='background' xlink:href="#2014y"/>    
+    </g>
+
+    <g id="Staff.Fayolle" transform="translate(0,1200) ">
+        <g transform="translate(24750,0) ">
+            <rect id="Staff.Fayolle.Period"
+                class="staff"
+                width="1500"
+                height="150"
+            />
+            <text id="Staff.Fayolle.Text" dx='10' dy="110" class="name">Julien Fayolle</text>
+        </g>
+    </g>
+
+    <g id="Staff.Benmansour" transform="translate(25900,1400) ">
+        <rect id="Staff.Benmansour.Period"
+            class="staff"
+            width="600"
+            height="150"
+        />
+        <text id="Staff.Benmansour.Text" dx='10' dy="110" class="name">Louisa B.</text>
+    </g>
+
+    <g id="Staff.Coudray" transform="translate(26750,1600) ">
+        <rect id="Staff.Coudray.Period"
+            class="staff"
+            width="5400"
+            height="150"
+        />
+        <text id="Staff.Coudray.Text" dx='10' dy="110" class="name">Thierry Coudray</text>
+    </g>
+
+    <g id="Staff.Evellin" transform="translate(20700,1800) ">
+        <rect id="Staff.Evellin.Period"
+            class="intern"
+            width="300"
+            height="150"
+        />
+        <text id="Staff.Evellin.Text" dx='10' dy="110" class="name">Benoît Evellin</text>
+    </g>
+
+    <g id="Staff.Matou" transform="translate(27450,2000) ">
+        <rect id="Staff.Matou.Period"
+            class="intern"
+            width="600"
+            height="150"
+        />
+        <text id="Staff.Matou.Text" dx='10' dy="110" class="name">Charlotte Matou</text>
+    </g>
+</g>
+<!-- </Staff> -->
+
+</svg>
