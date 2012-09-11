@@ -21,7 +21,7 @@ AGfinavril = +1100
 AGmimars = +750
 
 AG2004 = 0
--->
+--> 
   <defs id="defs">
     <rect id="2004-2005"
        width="1700"
@@ -108,7 +108,7 @@ AG2004 = 0
 
         text.name { font-size:120px; fill:black; font-family:Linux Libertine}
         text.label { font-size:200px; fill:black; font-family:Linux Libertine}
-
+        text.title { font-size:500px; fill:black; font-family:Linux Libertine}
         .background { fill:url(#base3) }
     </style>
 </defs>
@@ -116,8 +116,12 @@ AG2004 = 0
 <!-- Background color -->
 <rect width="35000" height="12000" class="background"/>
 
-<!-- Labels -->
 
+<!-- Title -->
+<text x='28000' y='1000' class='title'>A Wikimédia France timeline</text> 
+
+
+<!-- Labels -->
 <g id="Labels" transform="translate(0,150)">
     <text x='600'   class='label'>2005</text> 
     <text x='4200'  class='label'>2006</text> 
