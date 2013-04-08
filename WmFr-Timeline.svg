@@ -398,11 +398,11 @@ AG2004 = 0
 <!-- </CA> -->
 
 <g id="Staff" transform="translate(0,8000)">
-    <g id="Staff.Coye" transform="translate(0,0)">
-        <g transform="translate(16800,0) "><!-- TO CHECK -->
+    <g id="Staff.Coye" transform="translate(0,200)">
+        <g transform="translate(16800,0) ">
             <rect id="Staff.Coye.Period"
                 class="partstaff"
-                width="18000"
+                width="13200"
                 height="150"
             />
             <text id="Staff.Coye.Text" dx='10' dy="110" class="name">Elisabeth Coye</text>
@@ -425,31 +425,31 @@ AG2004 = 0
         <g transform="translate(23850,0) ">
             <rect id="Staff.OHare.Period"
                 class="staff"
-                width="10000"
+                width="15000"
                 height="150"
             />
             <text id="Staff.OHare.Text" dx='10' dy="110" class="name">Carol Ann O’Hare</text>
         </g>
-        <use class='background' xlink:href="#2014y"/>
+<!--         <use class='background' xlink:href="#2014y"/> -->
     </g>
 
     <g id="Staff.Alix" transform="translate(0,800) ">
         <g transform="translate(24000,0) ">
             <rect id="Staff.Alix.Period"
                 class="staff"
-                width="10000"
+                width="15000"
                 height="150"
             />
             <text id="Staff.Alix.Text" dx='10' dy="110" class="name">Adrienne Alix</text>
         </g>
-        <use class='background' xlink:href="#2014y"/>    
+<!--         <use class='background' xlink:href="#2014y"/>     -->
     </g>
 
     <g id="Staff.Boissel" transform="translate(0,1000) ">
         <g transform="translate(24450,0) ">
             <rect id="Staff.Boissel.Period"
                 class="staff"
-                width="10000"
+                width="15000"
                 height="150"
             />
             <text id="Staff.Boissel.Text" dx='10' dy="110" class="name">Sylvain Boissel</text>
@@ -477,10 +477,10 @@ AG2004 = 0
         <text id="Staff.Benmansour.Text" dx='10' dy="110" class="name">Louisa B.</text>
     </g>
 
-    <g id="Staff.Coudray" transform="translate(26750,1600) ">
+    <g id="Staff.Coudray" transform="translate(26700,1600) ">
         <rect id="Staff.Coudray.Period"
             class="staff"
-            width="5400"
+            width="2550"
             height="150"
         />
         <text id="Staff.Coudray.Text" dx='10' dy="110" class="name">Thierry Coudray</text>
