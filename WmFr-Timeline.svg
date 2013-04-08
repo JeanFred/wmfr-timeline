@@ -7,8 +7,6 @@
     xmlns:svg="http://www.w3.org/2000/svg"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
     width="35000"
     height="12000"
     id="svg2"
@@ -54,22 +52,27 @@ AG2004 = 0
        x='15750'
        />
     <rect id="2010-2011"
-       width="3600"
+       width="3450"
        height="150"
        x='19350'
        />
     <rect id="2011-2012"
-       width="4050"
+       width="4500"
        height="150"
-       x='22950'
+       x='22800'
+       />
+    <rect id="2012-2012"
+       width="1800"
+       height="150"
+       x='27300'
        />
     <rect id="2012-2013"
        width="3600"
        height="150"
-       x='27000'
+       x='29100'
        />
     <rect id='2014y'
-       width="2000"
+       width="0"
        height="150"
        x='33000'
        /><!-- Width to go until end of drawing-->
@@ -114,7 +117,7 @@ AG2004 = 0
 </defs>
 
 <!-- Background color -->
-<rect width="35000" height="12000" class="background"/>
+<rect id='background' width="35000" height="12000" class="background"/>
 
 
 <!-- Title -->
