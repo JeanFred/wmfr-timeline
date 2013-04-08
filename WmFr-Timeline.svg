@@ -294,7 +294,12 @@ AG2004 = 0
     <g id="Board.Alix" transform="translate(0,4800) ">
         <use class='president' xlink:href="#2009-2010"/>
         <use class='president' xlink:href="#2010-2011"/>
-        <use class='president' xlink:href="#2011-2012"/>
+<!--        <use class='president' xlink:href="#2011-2012"/>-->
+        <rect   x="22800"
+            class="president"
+            width="900"
+            height="150"
+        />
         <text x='15750' dx='10' dy="110" class="name">Adrienne Alix</text>
     </g>
     
@@ -308,9 +313,15 @@ AG2004 = 0
     <g id="Board.Mathis" transform="translate(0,5200) ">
         <use class='vicetreasurer' xlink:href="#2009-2010"/>
         <use class='board' xlink:href="#2010-2011"/>
-        <use class='president' xlink:href="#2011-2012"/>
+        <use class='board' xlink:href="#2011-2012"/>
+<!--         <use class='president' xlink:href="#2011-2012"/> -->
+        <rect   x="23700"
+            class="president"
+            width="3600"
+            height="150"
+        />
         <use class='president' xlink:href="#2012-2012"/>
-	<use class='president' xlink:href="#2012-2013"/>
+        <use class='president' xlink:href="#2012-2013"/>
         <text x='15750' dx='10' dy="110" class="name">Rémi Mathis</text>
     </g>
     
