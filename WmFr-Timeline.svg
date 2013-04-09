@@ -77,6 +77,10 @@ AG2004 = 0
        x='33000'
        /><!-- Width to go until end of drawing-->
 
+    <path
+       style="stroke:url(#lightgrey);stroke-width:40;"
+       d="m 0,200 0,30000"
+       id="YearMarker" />
     <!-- Solarized colors -->
     <linearGradient id="base03">    <stop stop-color="#002b36"/>    </linearGradient>
     <linearGradient id="base02">    <stop stop-color="#073642"/>    </linearGradient>
@@ -94,6 +98,7 @@ AG2004 = 0
     <linearGradient id="blue">      <stop stop-color="#268bd2"/>    </linearGradient>
     <linearGradient id="cyan">      <stop stop-color="#2aa198"/>    </linearGradient>
     <linearGradient id="green">     <stop stop-color="#859900"/>    </linearGradient>
+    <linearGradient id="lightgrey"> <stop stop-color="#c0c0c0"/>    </linearGradient>
 
     <!-- CSS style -->
     <style id="Style" type="text/css">
@@ -119,7 +124,6 @@ AG2004 = 0
 <!-- Background color -->
 <rect id='background' width="35000" height="12000" class="background"/>
 
-
 <!-- Title -->
 <text x='28000' y='1000' class='title'>A Wikimédia France timeline</text> 
 
@@ -138,6 +142,41 @@ AG2004 = 0
     <text x='33000' class='label'>2014</text> 
 </g>
 
+<!-- Grid -->
+<g id="Grid">
+    <g id="Year.2005" transform="translate(600,0) ">
+        <use xlink:href="#YearMarker"/>
+    </g>
+    <g id="Year.2006" transform="translate(4200,0) ">
+        <use xlink:href="#YearMarker"/>
+    </g>
+    <g id="Year.2007" transform="translate(7800,0) ">
+        <use xlink:href="#YearMarker"/>
+    </g>
+    <g id="Year.2008" transform="translate(11400,0) ">
+        <use xlink:href="#YearMarker"/>
+    </g>
+    <g id="Year.2009" transform="translate(15000,0) ">
+        <use xlink:href="#YearMarker"/>
+    </g>
+    <g id="Year.2010" transform="translate(18600,0) ">
+        <use xlink:href="#YearMarker"/>
+    </g>
+    <g id="Year.2011" transform="translate(22200,0) ">
+        <use xlink:href="#YearMarker"/>
+    </g>
+    <g id="Year.2012" transform="translate(25800,0) ">
+        <use xlink:href="#YearMarker"/>
+    </g>
+    <g id="Year.2013" transform="translate(29400,0) ">
+        <use xlink:href="#YearMarker"/>
+    </g>
+    <g id="Year.2014" transform="translate(33000,0) ">
+        <use xlink:href="#YearMarker"/>
+    </g>
+</g>
+
+<!-- Board -->
 <g id="Board" transform="translate(0,200)">
     <g id="MasDaude" transform="translate(0,0) ">
         <use class='board' xlink:href="#2004-2005"/>
