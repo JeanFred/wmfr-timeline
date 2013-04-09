@@ -118,6 +118,8 @@ AG2004 = 0
         text.label { font-size:200px; fill:black; font-family:Linux Libertine}
         text.title { font-size:500px; fill:black; font-family:Linux Libertine}
         .background { fill:url(#base3) }
+
+        .members { fill:none; stroke: url(#red); stroke-width: 30px }
     </style>
 </defs>
 
@@ -583,5 +585,11 @@ AG2004 = 0
 
 </g>
 <!-- </Staff> -->
+
+<!-- Members -->
+
+<g transform="matrix(1,0,0,-1,0,15000)">
+    <path d="M15600 3725 L15900 4156 16200 5411 16500 5411 16800 5333 17100 5176 17400 5098 17700 5176 18000 5137 18300 5490 18600 5686 18900 6784 19200 7411 19500 7843 19800 7960 20100 8039 20400 7843 20700 8117 21000 8313 21300 8509 21600 8745 21900 8980 22200 9176 22500 9568 22800 9764 23100 10431 23400 10627 23700 10862 24000 11176 24300 10901 24600 10588 24900 10392 25200 11960 25500 13686 25800 12588 26100 12078 26400 11490 26700 11725 27000 12000" class="members"/>
+</g>
 
 </svg>
