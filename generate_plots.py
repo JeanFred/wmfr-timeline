@@ -1,59 +1,39 @@
 #!python
 # -*- coding: UTF-8 -*-
 
-from svg.charts import time_series
+#from svg.charts import time_series
 import os
+import datetime
+from date2coord import timedelta_to_coord
 
-def generate_plots():
-    """Generate the various plots"""
-    yield 'Members', members_Plot()
-
-
-def members_Plot():
-    """Generate the plot of the members
-    """
-    g = time_series.Plot({})
-    g.width = 1000
-    g.height = 500
-    g.timescale_divisions = '1 years'
-    g.key = False
-    g.x_label_format = '%Y-%m'
-    g.min_y_value = 0
-    #g.max_x_value = '2014-01'
-
-    g.show_x_labels = False
-    g.show_y_labels = False
-    g.show_x_guidelines = False
-    g.show_y_guidelines = False
-    g.show_data_values = False
-    g.show_data_points = False
-    g.draw_lines_between_points = True
-    g.area_fill = False
-    
-    data = read_data(os.path.join(os.path.dirname(__file__),
-                                  'data', 'members.dat'))
-    g.add_data(
-        {'data': data,
-        'title': 'Members'})
-    return g
 
 def read_data(file_path):
+    """Read data from the given file.
+    Data is expected in a comma separated value fomat like"""
     data = []
     with open(file_path) as f:
         for line in f:
-            (date, number) = line.rstrip().split(',')
-            data.extend([date, int(number)])
-    return data
+            (datestr, number) = line.rstrip().split(',')
+            date = datetime.datetime.strptime(datestr, '%Y-%m').date()
+            yield (date, int(number))
 
-def write_plots():
-    """Write the plots on disk
-    """
+
+def create_plots():
+    """Create the plots on disk"""
     root = os.path.dirname(__file__)
-    for plot_name, plot in generate_plots():
-        res = plot.burn()
-        with open(os.path.join(root, plot_name + '.svg'), 'w') as f:
-            f.write(res)
+    data = read_data(os.path.join(root, 'data', 'members.dat'))
+    print data_to_svg(data)
+
+
+def data_to_svg(data):
+    """Convert some time data to a SVF line"""
+    first = data.next()
+    factor = 10
+    start = '<path d="M%s %s ' % (timedelta_to_coord(first[0]), factor * first[1])
+    end = '"  class="members"/>'
+    content = " ".join(["L%s %s" % (timedelta_to_coord(x[0]), factor * x[1]) for x in data])
+    return start + content + end
 
 
 if __name__ == '__main__':
-    write_plots()
+    create_plots()
