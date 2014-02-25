@@ -495,7 +495,7 @@ AG2004 = 0
 </g>
 <!-- </CA> -->
 
-<g id="Staff" transform="translate(0,8000)">
+<g id="Staff" transform="translate(0,9000)">
     <g id="Staff.Coye" transform="translate(0,200)">
         <g transform="translate(16800,0) ">
             <rect id="Staff.Coye.Period"
@@ -520,10 +520,10 @@ AG2004 = 0
     </g>
 
     <g id="Staff.OHare" transform="translate(0,600) ">
-        <g transform="translate(23850,0) ">
+        <g transform="translate(23715,0) ">
             <rect id="Staff.OHare.Period"
                 class="staff"
-                width="15000"
+                width="9289"
                 height="150"
             />
             <text id="Staff.OHare.Text" dx='10' dy="110" class="name">Carol Ann O’Hare</text>
@@ -535,7 +535,7 @@ AG2004 = 0
         <g transform="translate(24000,0) ">
             <rect id="Staff.Alix.Period"
                 class="staff"
-                width="15000"
+                width="13000"
                 height="150"
             />
             <text id="Staff.Alix.Text" dx='10' dy="110" class="name">Adrienne Alix</text>
@@ -547,7 +547,7 @@ AG2004 = 0
         <g transform="translate(24450,0) ">
             <rect id="Staff.Boissel.Period"
                 class="staff"
-                width="15000"
+                width="12550"
                 height="150"
             />
             <text id="Staff.Boissel.Text" dx='10' dy="110" class="name">Sylvain Boissel</text>
@@ -587,22 +587,40 @@ AG2004 = 0
     <g id="Staff.Baijard" transform="translate(28500,1800) ">
         <rect id="Staff.Baijard.Period"
             class="staff"
-            width="7000"
+            width="8500"
             height="150"
         />
         <text id="Staff.Baijard.Text" dx='10' dy="110" class="name">Sébastien Baijard</text>
     </g>
 
-    <g id="Staff.ElMoussaoui" transform="translate(29700,2000) ">
+    <g id="Staff.Ayachi" transform="translate(29700,2000) ">
         <rect id="Staff.ElMoussaoui.Period"
             class="staff"
-            width="7000"
+            width="7300"
             height="150"
         />
-        <text id="Staff.ElMoussaoui.Text" dx='10' dy="110" class="name">Nadia El Moussaoui</text>
+        <text id="Staff.Ayachi.Text" dx='10' dy="110" class="name">Nadia Ayachi</text>
     </g>
 
-    <g id="Staff.Evellin" transform="translate(20700,2200) ">
+    <g id="Staff.Martin" transform="translate(32100,2200) ">
+        <rect id="Staff.Martin.Period"
+            class="staff"
+            width="4900"
+            height="150"
+        />
+        <text id="Staff.Ayachi.Text" dx='10' dy="110" class="name">Nathalie Martin</text>
+    </g>
+
+    <g id="Staff.LePage" transform="translate(33307,2400) ">
+        <rect id="Staff.LePage.Period"
+            class="staff"
+            width="3800"
+            height="150"
+        />
+        <text id="Staff.LePage.Text" dx='10' dy="110" class="name">Pierre-Antoine Le Page</text>
+    </g>
+
+    <g id="Staff.Evellin" transform="translate(20700,3000) ">
         <rect id="Staff.Evellin.Period"
             class="intern"
             width="300"
@@ -611,7 +629,7 @@ AG2004 = 0
         <text id="Staff.Evellin.Text" dx='10' dy="110" class="name">Benoît Evellin</text>
     </g>
 
-    <g id="Staff.Matou" transform="translate(27450,2200) ">
+    <g id="Staff.Matou" transform="translate(27450,3000) ">
         <rect id="Staff.Matou.Period"
             class="intern"
             width="600"
@@ -620,7 +638,7 @@ AG2004 = 0
         <text id="Staff.Matou.Text" dx='10' dy="110" class="name">Charlotte Matou</text>
     </g>
 
-    <g id="Staff.Geoffre" transform="translate(30300,2200) ">
+    <g id="Staff.Geoffre" transform="translate(30300,3000) ">
         <rect id="Staff.Geoffre.Period"
             class="intern"
             width="1800"
