@@ -7,7 +7,7 @@
     xmlns:svg="http://www.w3.org/2000/svg"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    width="35000"
+    width="37000"
     height="12000"
     id="svg2"
     version="1.1">
@@ -67,14 +67,24 @@ AG2004 = 0
        x='27300'
        />
     <rect id="2012-2013"
-       width="3600"
+       width="3020"
        height="150"
        x='29100'
        />
-    <rect id='2014y'
+    <rect id="2013-2014"
+       width="3600"
+       height="150"
+       x='32120'
+       />
+    <rect id="2014-2015"
+       width="3600"
+       height="150"
+       x='35720'
+       />
+    <rect id='2015y'
        width="0"
        height="150"
-       x='33000'
+       x='37000'
        /><!-- Width to go until end of drawing-->
 
     <path
@@ -141,7 +151,8 @@ AG2004 = 0
     <text x='22200' class='label'>2011</text> 
     <text x='25800' class='label'>2012</text> 
     <text x='29400' class='label'>2013</text> 
-    <text x='33000' class='label'>2014</text> 
+    <text x='33000' class='label'>2014</text>
+    <text x='36600' class='label'>2015</text>
 </g>
 
 <!-- Grid -->
@@ -174,6 +185,9 @@ AG2004 = 0
         <use xlink:href="#YearMarker"/>
     </g>
     <g id="Year.2014" transform="translate(33000,0) ">
+        <use xlink:href="#YearMarker"/>
+    </g>
+    <g id="Year.2015" transform="translate(36600,0) ">
         <use xlink:href="#YearMarker"/>
     </g>
 </g>
