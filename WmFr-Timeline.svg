@@ -320,6 +320,7 @@ AG2004 = 0
         <use class='board' xlink:href="#2011-2012"/>
         <use class='board' xlink:href="#2012-2012"/>
         <use class='vicepresident' xlink:href="#2012-2013"/>
+        <use class='vicepresident' xlink:href="#2013-2014"/>
         <text x='8000' dx='10' dy="110" class="name">Christophe Henner</text>
     </g>
     
@@ -377,6 +378,7 @@ AG2004 = 0
         />
         <use class='president' xlink:href="#2012-2012"/>
         <use class='president' xlink:href="#2012-2013"/>
+        <use class='president' xlink:href="#2013-2014"/>
         <text x='15750' dx='10' dy="110" class="name">Rémi Mathis</text>
     </g>
     
@@ -427,18 +429,22 @@ AG2004 = 0
     <g id="Board.Berthelot" transform="translate(0,6600) ">
         <use class='board' xlink:href="#2012-2012"/>
         <use class='board' xlink:href="#2012-2013"/>
+        <use class='board' xlink:href="#2013-2014"/>
         <text x='27300' dx='10' dy="110" class="name">Jean-Frédéric Berthelot</text>
     </g>
 
     <g id="Board.Goursat" transform="translate(0,6800) ">
         <use class='treasurer' xlink:href="#2012-2012"/>
         <use class='treasurer' xlink:href="#2012-2013"/>
+        <use class='treasurer' xlink:href="#2013-2014"/>
+        <use class='board' xlink:href="#2014-2015"/>
         <text x='27300' dx='10' dy="110" class="name">Guillaume Goursat</text>
     </g>
 
     <g id="Board.Smith" transform="translate(0,7000)">
         <use class='vicetreasurer' xlink:href="#2012-2012"/>
         <use class='secretary' xlink:href="#2012-2013"/>
+        <use class='board' xlink:href="#2013-2014"/>
         <text x='27300' dx='10' dy="110" class="name">Benjamin Smith</text>
     </g>
 
@@ -449,6 +455,8 @@ AG2004 = 0
 
     <g id="Board.Vallespi" transform="translate(0,7400)">
         <use class='vicetreasurer' xlink:href="#2012-2013"/>
+        <use class='vicetreasurer' xlink:href="#2013-2014"/>
+        <use class='board' xlink:href="#2014-2015"/>
         <text x='29100' dx='10' dy="110" class="name">Émeric Vallespi</text>
     </g>
 
@@ -459,6 +467,30 @@ AG2004 = 0
             height="150"
         />
         <text x='29100' dx='10' dy="110" class="name">Françoise Garandeau</text>
+    </g>
+
+    <g id="Board.Bique" transform="translate(0,7800) ">
+        <use class='board' xlink:href="#2013-2014"/>
+        <use class='board' xlink:href="#2014-2015"/>
+        <text x='32120' dx='10' dy="110" class="name">Alexis-Marise Bique</text>
+    </g>
+
+    <g id="Board.Evellin" transform="translate(0,8000) ">
+        <use class='secretary' xlink:href="#2013-2014"/>
+        <use class='board' xlink:href="#2014-2015"/>
+        <text x='32120' dx='10' dy="110" class="name">Benoît Evellin</text>
+    </g>
+
+    <g id="Board.Lacroix" transform="translate(0,8200) ">
+        <use class='board' xlink:href="#2013-2014"/>
+        <use class='board' xlink:href="#2014-2015"/>
+        <text x='32120' dx='10' dy="110" class="name">Léa Lacroix</text>
+    </g>
+
+    <g id="Board.Peron" transform="translate(0,8400) ">
+        <use class='board' xlink:href="#2013-2014"/>
+        <use class='board' xlink:href="#2014-2015"/>
+        <text x='32120' dx='10' dy="110" class="name">Ludovic Péron</text>
     </g>
 </g>
 <!-- </CA> -->
