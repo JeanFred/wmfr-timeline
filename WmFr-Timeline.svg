@@ -7,7 +7,7 @@
     xmlns:svg="http://www.w3.org/2000/svg"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    width="37000"
+    width="45000"
     height="12000"
     id="svg2"
     version="1.1">
@@ -81,7 +81,17 @@ AG2004 = 0
        height="150"
        x='35720'
        />
-    <rect id='2015y'
+    <rect id="2014-2015"
+       width="3600"
+       height="150"
+       x='39320'
+       />
+    <rect id="2015-2016"
+       width="3600"
+       height="150"
+       x='42920'
+       />
+    <rect id='2016y'
        width="0"
        height="150"
        x='37000'
@@ -134,7 +144,7 @@ AG2004 = 0
 </defs>
 
 <!-- Background color -->
-<rect id='background' width="35000" height="12000" class="background"/>
+<rect id='background' width="40000" height="12000" class="background"/>
 
 <!-- Title -->
 <text x='28000' y='1000' class='title'>A Wikimédia France timeline</text> 
@@ -321,6 +331,7 @@ AG2004 = 0
         <use class='board' xlink:href="#2012-2012"/>
         <use class='vicepresident' xlink:href="#2012-2013"/>
         <use class='vicepresident' xlink:href="#2013-2014"/>
+        <use class='president' xlink:href="#2014-2015"/>
         <text x='8000' dx='10' dy="110" class="name">Christophe Henner</text>
     </g>
     
@@ -406,6 +417,7 @@ AG2004 = 0
             width="300"
             height="150"
         />
+        <use class='vicetreasurer' xlink:href="#2014-2015"/>
     </g>
     
     <g id="Board.Robert" transform="translate(0,6000) ">
@@ -430,6 +442,7 @@ AG2004 = 0
         <use class='board' xlink:href="#2012-2012"/>
         <use class='board' xlink:href="#2012-2013"/>
         <use class='board' xlink:href="#2013-2014"/>
+        <use class='board' xlink:href="#2014-2015"/>
         <text x='27300' dx='10' dy="110" class="name">Jean-Frédéric Berthelot</text>
     </g>
 
@@ -450,13 +463,15 @@ AG2004 = 0
 
     <g id="Board.Huard" transform="translate(0,7200)">
         <use class='board' xlink:href="#2012-2013"/>
+        <use class='vicesecretary' xlink:href="#2014-2015"/>
         <text x='29100' dx='10' dy="110" class="name">Pierre-Selim Huard</text>
     </g>
 
     <g id="Board.Vallespi" transform="translate(0,7400)">
         <use class='vicetreasurer' xlink:href="#2012-2013"/>
         <use class='vicetreasurer' xlink:href="#2013-2014"/>
-        <use class='board' xlink:href="#2014-2015"/>
+        <use class='vicepresident' xlink:href="#2014-2015"/>
+        <use class='board' xlink:href="#2015-2016"/>
         <text x='29100' dx='10' dy="110" class="name">Émeric Vallespi</text>
     </g>
 
@@ -477,7 +492,7 @@ AG2004 = 0
 
     <g id="Board.Evellin" transform="translate(0,8000) ">
         <use class='secretary' xlink:href="#2013-2014"/>
-        <use class='board' xlink:href="#2014-2015"/>
+        <use class='secretary' xlink:href="#2014-2015"/>
         <text x='32120' dx='10' dy="110" class="name">Benoît Evellin</text>
     </g>
 
@@ -491,6 +506,18 @@ AG2004 = 0
         <use class='board' xlink:href="#2013-2014"/>
         <use class='board' xlink:href="#2014-2015"/>
         <text x='32120' dx='10' dy="110" class="name">Ludovic Péron</text>
+    </g>
+
+    <g id="Board.LeGoff" transform="translate(0,8600) ">
+        <use class='board' xlink:href="#2014-2015"/>
+        <use class='board' xlink:href="#2015-2016"/>
+        <text x='35720' dx='10' dy="110" class="name">Samuel Le Goff</text>
+    </g>
+
+    <g id="Board.Prieur" transform="translate(0,8800) ">
+        <use class='board' xlink:href="#2014-2015"/>
+        <use class='board' xlink:href="#2015-2016"/>
+        <text x='35720' dx='10' dy="110" class="name">Benoît Prieur</text>
     </g>
 </g>
 <!-- </CA> -->
@@ -535,7 +562,7 @@ AG2004 = 0
         <g transform="translate(24000,0) ">
             <rect id="Staff.Alix.Period"
                 class="staff"
-                width="13000"
+                width="10000"
                 height="150"
             />
             <text id="Staff.Alix.Text" dx='10' dy="110" class="name">Adrienne Alix</text>
@@ -547,7 +574,7 @@ AG2004 = 0
         <g transform="translate(24450,0) ">
             <rect id="Staff.Boissel.Period"
                 class="staff"
-                width="12550"
+                width="20000"
                 height="150"
             />
             <text id="Staff.Boissel.Text" dx='10' dy="110" class="name">Sylvain Boissel</text>
@@ -587,7 +614,7 @@ AG2004 = 0
     <g id="Staff.Baijard" transform="translate(28500,1800) ">
         <rect id="Staff.Baijard.Period"
             class="staff"
-            width="8500"
+            width="20000"
             height="150"
         />
         <text id="Staff.Baijard.Text" dx='10' dy="110" class="name">Sébastien Baijard</text>
@@ -596,7 +623,7 @@ AG2004 = 0
     <g id="Staff.Ayachi" transform="translate(29700,2000) ">
         <rect id="Staff.ElMoussaoui.Period"
             class="staff"
-            width="7300"
+            width="20000"
             height="150"
         />
         <text id="Staff.Ayachi.Text" dx='10' dy="110" class="name">Nadia Ayachi</text>
@@ -605,7 +632,7 @@ AG2004 = 0
     <g id="Staff.Martin" transform="translate(32100,2200) ">
         <rect id="Staff.Martin.Period"
             class="staff"
-            width="4900"
+            width="20000"
             height="150"
         />
         <text id="Staff.Ayachi.Text" dx='10' dy="110" class="name">Nathalie Martin</text>
@@ -614,7 +641,7 @@ AG2004 = 0
     <g id="Staff.LePage" transform="translate(33307,2400) ">
         <rect id="Staff.LePage.Period"
             class="staff"
-            width="3800"
+            width="20000"
             height="150"
         />
         <text id="Staff.LePage.Text" dx='10' dy="110" class="name">Pierre-Antoine Le Page</text>
